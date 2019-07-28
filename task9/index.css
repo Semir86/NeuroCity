@@ -1,0 +1,26 @@
+.stlBody {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#divText {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    /*Центрирование*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -100%);    
+    /*Запрет на выделение*/
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#canvaBase {
+    margin: auto;
+}

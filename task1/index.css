@@ -1,0 +1,25 @@
+.stlBody{
+    background-color: black;
+    overflow: hidden;
+}
+
+#divBase{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#imgBase {
+    position: relative;
+    height: auto;
+    width: 100%;
+    /*Центрирование*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /*Запрет на выделение*/
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
